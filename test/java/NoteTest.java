@@ -8,4 +8,5 @@ public class NoteTest {
         assertEquals(2, Note.B.ordinal());
         assertEquals(11, Note.Gs.ordinal());
     }
+
 }
