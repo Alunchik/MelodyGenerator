@@ -3,11 +3,11 @@ import org.junit.Test;
 
 public class ChordTest {
     @Test(expected = WrongFormatException.class)
-    public void testCreateTempFile() throws WrongFormatException {
-        Chord ch = new ch("An");
+    public void testChordWrongName() throws WrongFormatException {
+        Chord ch = new Chord("An");
     }
     @Test(expected = WrongFormatException.class)
-    public void testCreateTempFile() throws WrongFormatException {
-        Chord ch = new ch("U");
+    public void testChordNonExisting() throws WrongFormatException {
+        Chord ch = new Chord("U");
     }
 }
